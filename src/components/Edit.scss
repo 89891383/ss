@@ -1,0 +1,33 @@
+div.edit-box {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 100;
+    background-color: transparent;
+    transition: 0.25s all;
+
+    & > button {
+        width: 64px;
+        height: 64px;
+        border: 0;
+        border-radius: 50%;
+        color: #fff;
+        background-color: #DF3D62;
+        font-size: 24px;
+        margin-right: 10px;
+        cursor: pointer;
+
+        &.video-url {
+            background-color: #2860AC;
+        }
+
+        &.live {
+            margin-right: 0;
+            background-color: #6441a5;
+        }
+    }
+}

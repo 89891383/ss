@@ -1,0 +1,23 @@
+:local(.confirm),
+:local(.cancel) {
+    width: 35%;
+    border: 0;
+    box-shadow: 0;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+:local(.confirm) {
+    background-color: #28AC73;
+}
+
+:local(.cancel) {
+    background-color: #DF3D62;
+}

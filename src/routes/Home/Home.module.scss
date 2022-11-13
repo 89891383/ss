@@ -1,0 +1,17 @@
+:local(.container) {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0c13;
+}
+
+:local(.image) {
+    margin-bottom: 25px;;
+}
+
+:local(.button) {
+    max-width: 250px;
+}

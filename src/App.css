@@ -1,0 +1,281 @@
+body {
+    overflow: hidden;
+}
+
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,600');*/
+
+/*body {*/
+
+/*background-color: #0f0e11;*/
+
+/*overflow: hidden;*/
+
+/*}*/
+
+/*div.edit {*/
+
+/*display: flex;*/
+
+/*flex-direction: column;*/
+
+/*align-items: center;*/
+
+/*font-family: 'Roboto', sans-serif;*/
+
+/*background-color: #1C1F29;*/
+
+/*color: #7a829f;*/
+
+/*border-radius: 5px;*/
+
+/*text-transform: uppercase;*/
+
+/*-webkit-touch-callout: none; !* iOS Safari *!*/
+
+/*-webkit-user-select: none; !* Safari *!*/
+
+/*-khtml-user-select: none; !* Konqueror HTML *!*/
+
+/*-moz-user-select: none; !* Firefox *!*/
+
+/*-ms-user-select: none; !* Internet Explorer/Edge *!*/
+
+/*user-select: none;*/
+
+/*}*/
+
+/*.video.edit {*/
+
+/*width: 100%;*/
+
+/*background-color: #313543;*/
+
+/*}*/
+
+/*.video.edit {*/
+
+/*border-radius: 0;*/
+
+/*}*/
+
+/*div.edit > svg {*/
+
+/*display: flex;*/
+
+/*flex: 1;*/
+
+/*font-size: 72px;*/
+
+/*justify-content: flex-end;*/
+
+/*}*/
+
+/*div.edit span {*/
+
+/*flex: 0;*/
+
+/*font-weight: 700;*/
+
+/*padding: 15px 0;*/
+
+/*font-size: 18px;*/
+
+/*}*/
+
+/*div.stream.edit .resize {*/
+
+/*position: absolute;*/
+
+/*bottom: 0px;*/
+
+/*right: 0px;*/
+
+/*width: 48px;*/
+
+/*height: 48px;*/
+
+/*text-align: center;*/
+
+/*background-color: #0d0e12;*/
+
+/*border-radius: 5px;*/
+
+/*cursor: se-resize;*/
+
+/*z-index: 1000;*/
+
+/*}*/
+
+/*div.edit .resize > svg,*/
+
+/*div.edit .move > svg,*/
+
+/*div.edit .hide > svg {*/
+
+/*position: relative;*/
+
+/*top: 16px;*/
+
+/*font-size: 20px;*/
+
+/*}*/
+
+/*div.stream.edit .move {*/
+
+/*position: absolute;*/
+
+/*top: 0px;*/
+
+/*left: 0px;*/
+
+/*width: 48px;*/
+
+/*height: 48px;*/
+
+/*text-align: center;*/
+
+/*background-color: #0d0e12;*/
+
+/*border-radius: 5px;*/
+
+/*cursor: move;*/
+
+/*z-index: 1000;*/
+
+/*}*/
+
+/*div.stream.edit .hide {*/
+
+/*position: absolute;*/
+
+/*top: 0px;*/
+
+/*right: 0px;*/
+
+/*width: 48px;*/
+
+/*height: 48px;*/
+
+/*text-align: center;*/
+
+/*background-color: #0d0e12;*/
+
+/*border-radius: 5px;*/
+
+/*cursor: pointer;*/
+
+/*z-index: 1000;*/
+
+/*}*/
+
+/*.App {*/
+
+/*display: flex;*/
+
+/*height: 100vh;*/
+
+/*overflow: hidden;*/
+
+/*}*/
+
+/*.App .player {*/
+
+/*position: relative;*/
+
+/*display: flex;*/
+
+/*flex: 1;*/
+
+/*}*/
+
+/*.App .player.mobile {*/
+
+/*flex: 0;*/
+
+/*}*/
+
+/*.App .stream {*/
+
+/*position: absolute;*/
+
+/*top: 0px;*/
+
+/*left: 0px;*/
+
+/*width: 640px;*/
+
+/*height: 360px;*/
+
+/*transition: 0.25s all;*/
+
+/*}*/
+
+/*.App .stream.edit {*/
+
+/*transition: 0.02s all;*/
+
+/*}*/
+
+/*.App #twitch-embed {*/
+
+/*width: 100%;*/
+
+/*height: 100%;*/
+
+/*}*/
+
+/*.App #chat_embed {*/
+
+/*flex: 0;*/
+
+/*height: 100%;*/
+
+/*}*/
+
+/*.App > button {*/
+
+/*display: flex;*/
+
+/*position: fixed;*/
+
+/*left: 50%;*/
+
+/*transform: translateX(-50%);*/
+
+/*z-index: 1000;*/
+
+/*background-color: transparent;*/
+
+/*}*/
+
+/*button.mobile {*/
+
+/*position: fixed;*/
+
+/*top: 15px;*/
+
+/*right: 15px;*/
+
+/*background-color: transparent;*/
+
+/*color: #fff;*/
+
+/*border: 0;*/
+
+/*font-size: 32px;*/
+
+/*}*/
+
+/*button.chat {*/
+
+/*top: 50%;*/
+
+/*left: auto;*/
+
+/*right: 0;*/
+
+/*transform: translate(0, -50%);*/
+
+/*text-align: center;*/
+
+/*}*/

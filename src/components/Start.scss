@@ -1,0 +1,23 @@
+:local(.container) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  img {
+    margin-bottom: 1rem;
+  }
+
+  button {
+    border: 0;
+    background-color: #4285f4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,29 @@
+:local(.sync) {
+    position: relative;
+    margin: 15px;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    color: #ccc;
+    outline: none;
+    cursor: pointer;
+    transition: 0.25s all;
+
+    &:hover {
+        color: #fff;
+    }
+
+    svg {
+        font-size: 32px;
+    }
+}
+
+@media(max-width: 768px) {
+  :local(.sync) {
+    margin: 15px 5px;
+
+    svg {
+      font-size: 24px;
+    }
+  }
+}

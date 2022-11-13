@@ -1,0 +1,33 @@
+:local(.tooltip) {
+    position: relative;
+
+    & > :local(.label) {
+        visibility: hidden;
+        background-color: rgba(0, 0, 0, 0.85);
+        color: #ffffff;
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        z-index: 1;
+        font-size: 14px;
+        transform: translate(-50%, -5px);
+        width: 120px;
+
+        &::after {
+        content: " ";
+        position: absolute;
+        top: 100%; /* At the bottom of the tooltip */
+        left: 50%;
+        margin-left: -5px;
+        border: 5px solid transparent;
+        border-top-color: rgba(0, 0, 0, 0.85);
+        }
+    }
+
+    &:not(:local(.hidden)):hovel :local(.label) {
+        visibility: visible;
+    }
+}

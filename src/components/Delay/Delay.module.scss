@@ -1,0 +1,64 @@
+:local(.delay) {
+    position: relative;
+    margin: 15px;
+}
+
+:local(.button),
+:local(.decrement),
+:local(.increment) {
+    border: 0;
+    background-color: transparent;
+    color: #ccc;
+    outline: none;
+    cursor: pointer;
+    transition: 0.25s all;
+}
+
+:local(.decrement),
+:local(.increment) {
+    position: relative;
+    top: -5px;
+}
+
+:local(.button) {
+    padding: 0;
+
+    &:hover {
+        color: #fff;
+    }
+
+    svg {
+        font-size: 32px;
+    }
+
+    span {
+        position: relative;
+        top: -10px;
+        padding-left: 5px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+    }
+}
+
+:local(.decrement) {
+    color: #DF3D62;
+}
+
+:local(.increment) {
+    color: #4285f4;
+}
+
+@media(max-width: 768px) {
+  :local(.delay) {
+    margin: 15px 5px;
+
+    svg {
+      font-size: 24px;
+    }
+
+    span {
+      top: -7px;
+    }
+  }
+}

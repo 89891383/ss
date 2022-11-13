@@ -1,0 +1,22 @@
+:local(.container) {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+:local(.player) {
+    position: relative;
+    flex: 1;
+    background-color: #0e0c13;
+}
+
+@media(max-width: 992px) {
+    :local(.container) {
+        flex-direction: column !important;
+    }
+
+    :local(.player) {
+        flex: 0;
+    }
+}

@@ -1,0 +1,77 @@
+.modal.background {
+    position: fixed;
+    //top: 0;
+    //left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.75);
+    transform: translateZ(0);
+
+    & > .modal {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+        background-color: #1C1F29;
+        color: #7a829f;
+        padding: 15px;
+        border-radius: 0.5rem;
+
+        & > div {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+        }
+
+        button {
+            width: 35%;
+            border: 0;
+            box-shadow: 0;
+            border-radius: 0.25rem;
+            padding: 0.5rem 1rem;
+            margin-top: 1rem;
+            font-family: 'Rubik', sans-serif;
+            font-size: 14px;
+            font-weight: 600;
+            color: #ffffff;
+
+            &.confirm {
+                background-color: #28AC73;
+            }
+
+            &.cancel {
+                background-color: #DF3D62;
+            }
+        }
+    }
+}
+
+.quality.field {
+    label {
+        font-weight: bold;
+        width: 20%;
+        padding: 6px 0;
+    }
+
+    .input-group {
+        flex: 80%;
+        display: flex;
+        flex-direction: column;
+
+        input {
+            height: 28px;
+            border: 0;
+            border-radius: 0.25rem;
+            background-color: #313543;
+            padding: 0 5px;
+            font-size: 14px;
+            color: #ffffff;
+            font-family: 'Rubik', sans-serif;
+            margin: 5px 0;
+        }
+    }
+}

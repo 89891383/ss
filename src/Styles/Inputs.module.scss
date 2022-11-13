@@ -1,0 +1,23 @@
+:local(.label) {
+    font-weight: bold;
+    padding: 6px 0;
+}
+
+:local(.input_group) {
+    flex: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+:local(.input) {
+    height: 28px;
+    border: 0;
+    border-radius: 0.25rem;
+    background-color: #313543;
+    padding: 0 5px;
+    font-size: 14px;
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    margin: 5px 0;
+}
+

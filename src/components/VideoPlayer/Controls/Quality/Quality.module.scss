@@ -1,0 +1,137 @@
+:local(.container) {
+  position: relative;
+}
+
+:local(.quality) {
+  position: relative;
+  border: 0;
+  background-color: transparent;
+  color: #ccc;
+  margin: 15px;
+  padding: 0;
+  outline: none;
+  transition: 0.25s all;
+  cursor: pointer;
+
+  &:hover {
+    color: #fff;
+  }
+
+  svg {
+    font-size: 32px;
+  }
+
+  span {
+    position: relative;
+    top: -10px;
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+:local(.dialog) {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.75);
+  list-style-type: none;
+  padding-inline-start: 0;
+  width: 100%;
+}
+
+:local(.option) {
+  position: relative;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 0;
+  color: #ccc;
+}
+
+@media(max-width: 768px) {
+  :local(.quality) {
+    margin: 15px 5px;
+
+    svg {
+      font-size: 24px;
+    }
+
+    span {
+      top: -7px;
+    }
+  }
+}
+
+// div.controls button.quality {
+//     position: relative;
+//     border: 0;
+//     background-color: transparent;
+//     color: #cccccc;
+//     margin: 15px;
+//     padding: 0;
+//     outline: none;
+//     transition: 0.25s all;
+//     cursor: pointer;
+
+//     &:hover {
+//         color: #ffffff;
+//     }
+
+//     svg {
+//         font-size: 32px;
+//     }
+
+//     span {
+//         position: relative;
+//         top: -10px;
+//         padding-left: 5px;
+//         font-family: 'Roboto', sans-serif;
+//         font-size: 16px;
+//         font-weight: 500;
+//     }
+
+//     ul {
+//         position: absolute;
+//         bottom: 100%;
+//         border-radius: 5px;
+//         background-color: rgba(0, 0, 0, 0.75);
+//         list-style-type: none;
+//         padding-inline-start: 0;
+//         width: 100%;
+
+//         li {
+//             position: relative;
+//             text-align: center;
+//             font-family: 'Roboto', sans-serif;
+//             font-size: 16px;
+//             font-weight: 500;
+//             margin: 10px 0;
+//             color: #cccccc;
+
+//             &.selected::after {
+//                 content: '';
+//                 position: absolute;
+//                 left: 5px;
+//                 top: 50%;
+//                 transform: translateY(-50%);
+//                 display: block;
+//                 width: 8px;
+//                 height: 8px;
+//                 border-radius: 50%;
+//                 background-color: #4285f4;
+//             }
+
+//             &:hover {
+//                 color: #ffffff;
+//             }
+//         }
+//     }
+// }
+
+// div.controls.mobile button.quality span {
+//     top: -7px;
+// }

@@ -1,0 +1,44 @@
+:local(.overlay) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+
+    &:hover {
+        :local(.icon) {
+            fill: #fff !important;
+        }
+
+        :local(.span) {
+            color: #fff;
+        }
+    }
+}
+
+:local(.container) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+:local(.icon),
+:local(.span) {
+    transition: 0.25s all ease-in-out;
+}
+
+:local(.icon) {
+    font-size: 128px !important;
+    fill: rgba(255, 255, 255, 0.5) !important;
+}
+
+:local(.span) {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
